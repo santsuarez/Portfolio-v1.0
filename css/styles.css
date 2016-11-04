@@ -1,0 +1,163 @@
+#content{
+    display: none;
+}
+#logo img{
+    width: 150px;
+    margin-left: 50px;
+}
+#welcome-image img{
+    width: 100%;
+    float: left;
+}
+#about{
+    color: white;
+    float: left;
+    width: 100%;
+}
+#portfolio{
+    width: 100%;
+    float: left;
+}
+.img-work{
+    width: 100%;
+    height: 150px;
+}
+.work-details{
+    padding: 0px 10px 5px 20px;
+}
+footer{
+    float: left;
+    width: 100%;
+    color: white;
+}
+#social a{
+    float: left;
+    background-color: #087fc1;
+    padding: 20px 10px 10px 10px;
+}
+#contact a img{
+    width: 30px;
+    float: left;
+}
+#contact a{
+    float: left;
+    background-color: #087fc1;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+#mail a img{
+    width: 30px;
+    float: left;
+}
+#mail a{
+    float: left;
+    background-color: #087fc1;
+    padding: 10px 10px 10px 10px;
+}
+.image-p{
+  width: 100%;
+  height: 200px;  
+  text-align: center;
+}
+.image-p span{
+  font-size: 1rem; 
+}
+#arrow{
+    width:100px;
+    height:100px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin: 25px;
+    cursor: pointer;
+}
+/*===========COLORS============*/
+.primary{
+    background-color: #087fc1;
+}
+.primary-text{
+    color: #087fc1;
+}
+.dark{
+    background-color: #3a3a3a !important;
+}
+.dark-2{
+    background-color: #282828 !important;
+}
+.dark-text{
+    color: #3a3a3a !important;
+}
+/*=============================*/
+/*===========LOADER============*/
+#loader{
+    width: 100%;
+    height: 500px;
+}
+.spinner{
+    width: 80px;
+    height: 80px;
+    
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid transparent;
+    border-top: 3px solid #087fc1;
+    border-bottom: 3px solid #087fc1;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    animation: spin 1s infinite linear;
+}
+.spinner2{
+    width: 60px;
+    height: 60px;
+    
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid transparent;
+    border-top: 3px solid #3a3a3a;
+    border-bottom: 3px solid #3a3a3a;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    animation: spin2 0.9s infinite linear;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin2{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(-360deg);
+    }
+}
+/*=============================*/
+
+@media only screen and (max-width: 993px){
+    #logo img{
+        margin-left: 0px;
+    }
+    #icon-movil-menu{
+        margin-left: 10px;
+    }
+}

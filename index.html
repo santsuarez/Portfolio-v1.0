@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Santiago Suarez | Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="img/icons/favicon.png">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/circle.css">
+    </head>
+    <body onload="hideloader();">
+        <div id="loader">
+            <div id="spiner" class="spinner"></div>
+            <div id="spiner2" class="spinner2"></div>
+        </div>
+        <div id="content">
+            <header>
+                <nav class="primary">
+                    <div class="nav-wrapper">
+                        <a id="logo" class="brand-logo">
+                            <img src="img/logos/logo.png">
+                        </a>
+                        <a id="icon-movil-menu" href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                        <ul id="menu" class="right hide-on-med-and-down">
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+           <!-- <section id="welcome-image">
+                <img src="img/background.jpg">    
+            </section>-->
+            <section id="about" class="primary">
+                <div class="container">
+                    <h3>About Me</h3>
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            <img class="responsive-img circle"  src="img/profile.jpg">
+                        </div>
+                        <div class="col s12 m8 l8">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="container">
+                    <h3>Portfolio</h3>
+                    <div class="row">
+                        <input name="categories" type="radio" id="all" checked>
+                        <label for="all">All</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input name="categories" type="radio" id="graphic-design">
+                        <label for="graphic-design">Graphic Design</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input name="categories" type="radio" id="web-design">
+                        <label for="web-design">Web Design</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input name="categories" type="radio" id="brand">
+                        <label for="brand">Brand & Identity</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                         <input name="categories" type="radio" id="web-dev">
+                        <label for="web-dev">Web Development</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div id="graphicDesign" class="row">
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="webDesign" class="row">
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="brands" class="row">
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                     <div id="webDev" class="row">
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                        <div class="col s6 m3 l3">
+                            <div class="card">
+                                <img class="img-work responsive-img" src="img/works/image.jpg"> 
+                                    <h6 class="work-details">Name / <a>Preview</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <div style="width:100%;" class="divider dark"></div>
+            </div>
+            <section id="skills">
+                <div class="container">
+                    <h3>Skills</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/html.png">
+                                     <span>HTML</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/css.png">
+                                     <span>CSS</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/js.png">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/UX.png">
+                                     <span>User Experience</span>
+                                </div>
+                            </div>
+                             <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/RD.png">
+                                     <span>Responsive Design</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/mysql.png">
+                                     <span>MySql</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/sqlserver.png">
+                                     <span>SQL Server</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/php.png">
+                                     <span>PHP</span>
+                                </div>
+                            </div>
+                            <div class="col s6 m3 l3">
+                                <div class="image-p card-panel">
+                                    <img class="responsive-img" src="img/logos/wordpress.png">
+                                     <span>Wordpress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <img id="arrow" src="img/icons/arrow-up-02.png">
+            <footer class="page-footer dark">
+                <div class="container">
+                    <div id="contact" class="row">
+                        <h3>Contact</h3>
+                        <div class="col l4 m4 s12">
+                            <div id="contact">
+                                <a href="#"><img src="img/icons/phone.png">&nbsp;&nbsp;809-290-4062</a>
+                                <a><img src="img/icons/mobil.png">&nbsp;&nbsp;(+1) 809-201-0467</a>
+                                <a href="#"><img src="img/icons/mail.png">&nbsp;&nbsp;santiagosuarez201@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="col l4 m4 s12">
+                            <div id="social"><br>
+                                <a href="#"><img src="img/icons/facebook.png"></a>
+                                <a><img src="img/icons/instagram.png"></a>
+                            </div>
+                        </div>
+                        <div id="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60255.90356172262!2d-70.24502097032797!3d19.28262832032189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eae2dee3ffb7057%3A0xdf0e765fe8758223!2sSan+Francisco+de+Macor%C3%ADs+31000!5e0!3m2!1ses-419!2sdo!4v1476371173999" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-copyright dark-2">
+                   <p>© 2016 Adham Dannaway</p>
+                </div>
+            </footer>
+        </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('select').material_select();
+            $('.datepicker').pickadate();
+            $('.dropdown-button').dropdown();
+            $(".button-collapse").sideNav();
+            $('.slider').slider({
+                interval: 3000,
+                transition:1000,
+                full_width: true
+            });
+            $('.modal-trigger').leanModal();
+        });
+    </script>
+    </body>
+</html>
